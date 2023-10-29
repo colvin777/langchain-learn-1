@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "langchain-learn-1"
+version = "0.1.0"
+description = ""
+authors = ["colvin <colvin.zhang@boaocloud.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain = "^0.0.315"
+asyncio = "^3.4.3"
+
+
+[[tool.poetry.source]]
+name = "mirrors"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
+priority = "default"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

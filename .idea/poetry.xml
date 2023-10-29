@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PoetryConfigService">
+    <option name="poetryVirtualenvPaths">
+      <set>
+        <option value="D:\dev_env\poetry_cache_dir\virtualenvs\langchain-learn-1-KjgCYh4n-py3.11\Scripts\python.exe" />
+        <option value="D:\dev_env\poetry_cache_dir\virtualenvs\langchain-learn-1-6Ed9wIbS-py3.11\Scripts\python.exe" />
+      </set>
+    </option>
+  </component>
+</project>
