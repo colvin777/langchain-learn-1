@@ -662,6 +662,28 @@ url = "https://pypi.tuna.tsinghua.edu.cn/simple"
 reference = "mirrors"
 
 [[package]]
+name = "langchain-experimental"
+version = "0.0.36"
+description = "Building applications with LLMs through composability"
+optional = false
+python-versions = ">=3.8.1,<4.0"
+files = [
+    {file = "langchain_experimental-0.0.36-py3-none-any.whl", hash = "sha256:1d683c63849408594ca9a641bdbaa954a8cbfaa1aa0a17feeb10ea77dd122fa0"},
+    {file = "langchain_experimental-0.0.36.tar.gz", hash = "sha256:c0b84334b42b67e7d6d2653afdefafb562993daf61abaa34cb75154931fdd3c1"},
+]
+
+[package.dependencies]
+langchain = ">=0.0.308"
+
+[package.extras]
+extended-testing = ["faker (>=19.3.1,<20.0.0)", "presidio-analyzer (>=2.2.33,<3.0.0)", "presidio-anonymizer (>=2.2.33,<3.0.0)", "sentence-transformers (>=2,<3)", "vowpal-wabbit-next (==0.6.0)"]
+
+[package.source]
+type = "legacy"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+reference = "mirrors"
+
+[[package]]
 name = "langsmith"
 version = "0.0.44"
 description = "Client library to connect to the LangSmith LLM Tracing and Evaluation Platform."
@@ -1490,4 +1512,4 @@ reference = "mirrors"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "51930b2e8f87ee628f571796ca74f7c16636965904200f26cd498c96df8e52c7"
+content-hash = "984b8c46801241b5f4a9b2cb446067128bf5d63c88ae824113e0131136bc8406"
